@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	background-color: #FAF9F6;
+}
+
+h1 {
+	font-size: 175%;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+}
+
+.container {
+	background-color: lightgray;
+}
+.row {
+
+	background-color: blue;
+}
+.row > div {
+	float: left;
+	padding: 10px;
+	border-spacing: 10px;
+}
+.product {
+	background-color: #73A580;
+	border: 1px solid black;
+}
+.product-headding {
+	width: 40%;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #E1AD01;
+	border: 1px solid black;
+	position: relative;
+	left: 60%;
+	margin-top: -1px;
+	margin-left: 1px;
+}
+.product-dietary-information {
+	background-color: #E1AD01;
+	border: 1px solid black;
+	font-weight: bold;
+	font-style: italic;
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -1px;
+
+}
+.product-information {
+	color: black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+@media (min-width: 1199px) {
+.product-1 {
+	width: 33.33%;
+}
+.product-2 {
+	width: 33.33%;
+}
+.product-3 {
+	width: 33.33%;
+}
+}
+
+@media (min-width: 749px) and (max-width: 1199px) {
+.product-1 {
+	width: 50%;
+}
+.product-2 {
+	width: 50%;
+}
+.product-3 {
+	width: 100%;
+}
+}
+
+@media (max-width: 749px) {
+.product-1 {
+	width: 100%;
+}
+.product-2 {
+	width: 100%;
+}
+.product-3 {
+	width: 100%;
+}
+}
